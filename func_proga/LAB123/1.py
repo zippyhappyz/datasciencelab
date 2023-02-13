@@ -75,8 +75,8 @@ while True:
     num2 = input("Введите второе число: ")
 
     if num1.isdigit() and num2.isdigit():
-        sum = int(num1) + int(num2)
-        print("Сумма цифр: ", sum)
+        result = int(num1) + int(num2)
+        print("Сумма цифр: ", result)
         break
     else:
         print("Ошибка! Пожалуйста, введите число.")
