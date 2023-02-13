@@ -34,16 +34,16 @@
 # Для самых умных: массивами и аналогичными структурами данных пользоваться нельзя.
 
 
-# n = int(input("Введите общее количество карт: "))
-# summa_card = n * (n + 1) // 2
-# sum_remain = 0
-#
-# for i in range(n - 1):
-#     x = int(input("Введите номер оставшейся карты: "))
-#     sum_remain += x
-#
-# lost_card = summa_card - sum_remain
-# print("Потерянная карта это:", lost_card)
+n = int(input("Введите общее количество карт: "))
+summa_card = n * (n + 1) // 2
+sum_remain = 0
+
+for i in range(n - 1):
+    x = int(input("Введите номер оставшейся карты: "))
+    sum_remain += x
+
+lost_card = summa_card - sum_remain
+print("Потерянная карта это:", lost_card)
 
 # Вводится строка, включающая строчные и прописные буквы.
 # Требуется вывести ту же строку в одном регистре, который зависит от того, каких букв больше.
@@ -80,25 +80,5 @@
 #         break
 #     else:
 #         print("Ошибка! Пожалуйста, введите число.")
-
-
-import math
-
-name = input("Введите имя: ")
-surname = input("Введите фамилию: ")
-age = int(input("Введите возраст: "))
-address = input("Введите адрес: ")
-print("Имя: ", name)
-print("Фамилия: ", surname)
-print("Возраст: ", age)
-print("Место жительство: ", address)
-
-
-print("Математические операции ")
-x = int(input("Введите переменную x: "))
-t = int(input("Введите переменную t: "))
-
-z = ((9*math.pi*t+10*math.cos(x))/(math.sqrt(t)-math.fabs(math.sin(t))))*math.pow(math.e,x)
-print("z = {0:.2f}".format(z))
 
 
