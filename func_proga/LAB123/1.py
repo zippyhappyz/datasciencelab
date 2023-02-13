@@ -34,16 +34,16 @@
 # Для самых умных: массивами и аналогичными структурами данных пользоваться нельзя.
 
 
-# n = int(input("Введите общее количество карт: "))
-# summa_card = n * (n + 1) // 2
-# sum_remain = 0
-#
-# for i in range(n - 1):
-#     x = int(input("Введите номер оставшейся карты: "))
-#     sum_of_remaining_cards += x
-#
-# lost_card = sum_of_cards - sum_of_remaining_cards
-# print("Потерянная карта это:", lost_card)
+n = int(input("Введите общее количество карт: "))
+summa_card = n * (n + 1) // 2
+sum_remain = 0
+
+for i in range(n - 1):
+    x = int(input("Введите номер оставшейся карты: "))
+    sum_remain += x
+
+lost_card = summa_card - sum_remain
+print("Потерянная карта это:", lost_card)
 
 # Вводится строка, включающая строчные и прописные буквы.
 # Требуется вывести ту же строку в одном регистре, который зависит от того, каких букв больше.
@@ -70,15 +70,15 @@
 #     print(string.upper())
 
 
-while True:
-    num1 = input("Введите первое число: ")
-    num2 = input("Введите второе число: ")
-
-    if num1.isdigit() and num2.isdigit():
-        result = int(num1) + int(num2)
-        print("Сумма цифр: ", result)
-        break
-    else:
-        print("Ошибка! Пожалуйста, введите число.")
+# while True:
+#     num1 = input("Введите первое число: ")
+#     num2 = input("Введите второе число: ")
+#
+#     if num1.isdigit() and num2.isdigit():
+#         result = int(num1) + int(num2)
+#         print("Сумма цифр: ", result)
+#         break
+#     else:
+#         print("Ошибка! Пожалуйста, введите число.")
 
 
