@@ -35,8 +35,8 @@
 
 
 # n = int(input("Введите общее количество карт: "))
-# sum_of_cards = n * (n + 1) // 2
-# sum_of_remaining_cards = 0
+# summa_card = n * (n + 1) // 2
+# sum_remain = 0
 #
 # for i in range(n - 1):
 #     x = int(input("Введите номер оставшейся карты: "))
