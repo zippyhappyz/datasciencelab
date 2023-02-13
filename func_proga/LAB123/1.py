@@ -73,13 +73,12 @@
 while True:
     num1 = input("Введите первое число: ")
     num2 = input("Введите второе число: ")
-    num3 = input("Введите 3 число: ")
 
     if num1.isdigit() and num2.isdigit():
         sum = int(num1) + int(num2)
         print("Сумма цифр: ", sum)
         break
     else:
-        print("Ошибка! Пожалуйста, введите цифру.")
+        print("Ошибка! Пожалуйста, введите число.")
 
 
